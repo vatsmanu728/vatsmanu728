@@ -34,14 +34,6 @@
 
 ##   Interested In
 
-<!-- AI Agents & Automation (4 logos) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white">
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white">
-  <img src="https://img.shields.io/badge/Antigravity-AI-purple?style=for-the-badge">
-</p>
-
 <!-- Programming & ML (6 logos) -->
 <p align="center">
   <img src="https://skillicons.dev/icons?i=vscode,cpp,python,tensorflow,pytorch,opencv&theme=dark" />
@@ -52,72 +44,99 @@
   <img src="https://skillicons.dev/icons?i=html,css,typescript,react,nodejs,aws,cloudflare,supabase&theme=dark" />
 </p>
 
+<!-- AI Agents & Automation (4 logos) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white">
+  <img src="https://img.shields.io/badge/Antigravity-AI-purple?style=for-the-badge">
+</p>
+
 <table align="center">
 <tr>
 
 <td valign="top" width="33%">
-#### Programming & ML
-- C/C++
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- OpenCV
-- TensorFlow
-- PyTorch
-- MediaPipe
-- Ultralytics
-- SQL
-- Matplot
-- Seaborn
-- Data Visualization
-- Forecasting & Predictive Modelling
-- Natural Language Processing
+
+<h4>Programming & ML</h4>
+
+<ul>
+<li>C/C++</li>
+<li>Python</li>
+<li>Pandas</li>
+<li>NumPy</li>
+<li>Scikit-learn</li>
+<li>OpenCV</li>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>MediaPipe</li>
+<li>Ultralytics</li>
+<li>SQL</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+<li>Data Visualization</li>
+<li>Forecasting & Predictive Modelling</li>
+<li>Natural Language Processing</li>
+</ul>
+
 </td>
 
-<td valign="top" width="33%">
-#### AI Agents & Automation
-- NLP
-- Chatbots
-- RAG
-- HuggingFace
-- Sentence Transformers
-- LangChain
-- LangGraph
-- LLM
-- OpenAI API
-- Gemini API
-- Claude
-- Replit, Cursor, Antigravity
-</td>
 
 <td valign="top" width="33%">
-#### Development
-- FRONT-END
-- HTML / CSS
-- Typescript
-- Node.js
-- React
-- BACK-END
-- Cloud Infra
-- Cloudflare
-- AWS - Cognito, SNS, RDS, S3, Lambda, Lex Chatbot
-- Supabase - Auth, Realtime, PostgreSQL, Cron, Deno Edge Functions
-- APP DEVELOPMENT
-- React Native
-- Expo Framework
-- SYSTEM DESIGN
-- App Architecture
-- Computer Vision
+
+<h4>AI Agents & Automation</h4>
+
+<ul>
+<li>NLP</li>
+<li>Chatbots</li>
+<li>RAG</li>
+<li>HuggingFace</li>
+<li>Sentence Transformers</li>
+<li>LangChain</li>
+<li>LangGraph</li>
+<li>LLM</li>
+<li>OpenAI API</li>
+<li>Gemini API</li>
+<li>Claude</li>
+<li>Replit, Cursor, Antigravity</li>
+</ul>
+
+</td>
+
+
+<td valign="top" width="33%">
+
+<h4>Development</h4>
+
+<ul>
+<li>FRONT-END</li>
+<li>HTML / CSS</li>
+<li>TypeScript</li>
+<li>Node.js</li>
+<li>React</li>
+
+<li>BACK-END</li>
+<li>Cloud Infra</li>
+<li>Cloudflare</li>
+<li>AWS (Cognito, SNS, RDS, S3, Lambda, Lex Chatbot)</li>
+<li>Supabase (Auth, Realtime, PostgreSQL, Cron, Deno Edge Functions)</li>
+
+<li>APP DEVELOPMENT</li>
+<li>React Native</li>
+<li>Expo Framework</li>
+
+<li>SYSTEM DESIGN</li>
+<li>App Architecture</li>
+<li>Computer Vision</li>
+</ul>
+
 </td>
 
 </tr>
 </table>
-
 ---
 
 ## 📊 GitHub Stats
-
+<!--
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=vatsmanu728&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vatsmanu728&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
@@ -126,7 +145,7 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vatsmanu728&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%" alt="Contribution Graph" />
 </div>
-
+-->
 ---
 
 <div align="center">
@@ -148,7 +167,8 @@
   <a href="mailto:vatsmanu728@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
   </a>
-  <!-- <a href="https://medium.com/@cybwarrior00">
+  <!-- 
+  <a href="https://medium.com/@cybwarrior00">
     <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" />
   </a>
   <a href="https://tryhackme.com/p/cybarsh">
@@ -156,7 +176,8 @@
   </a>
   <a href="https://instagram.com/soni_arsh2803">
     <img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=E4405F" />
-  </a> -->
+  </a> 
+  -->
 </p>
 
 ---
