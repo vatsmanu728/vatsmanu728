@@ -1,7 +1,7 @@
 <!-- MAYANK VATS – DARK THEME PROFILE -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+MAYANK+VATS;Data+Scientist+%7C+AI+%26+ML+Engineer;Enthusiastic+about+Impact+Driven+initiative;AI+Agents+%26+Chatbots+with+LangChain+%26+LangGraph;25" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+MAYANK+VATS;Applied+Machine+Learning+%7C+Data+Science+%7C+AI+Automation;Experienced+in+NLP+%7C+Forecasting+%7C+Predictive+Modelling+%7C+Computer+Vision;Enthusiastics+about+AI+agents+based+App+Development+%26+Web+Applications+%26+Chatbots;ChatGPT+%7C+Claude+Code+%7C+Gemini+%7C+Replit+%7C+Cursor+%7C+Antigravity" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -21,44 +21,96 @@
 <img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" />
 
 ## 🙋‍♂️ About Me
-
-- 🔭 Enthusiastic about **Machine Learning & Decision Intelligence**  
-- 💼 Former **Data Scientist @ MeitY (Government of India)**  
-- 🤖 Working on **AI Agents & Chatbots** with **LangChain & LangGraph**      
+- 💼 Former **Machine Learning Intern @ National e-Governance Division (MeitY, Government of India)**
+- 🔭 Focused on **Applied Machine Learning, Data Science & AI Automation**
+- 🤖 Building **ML Solutions, NLP Applications & Intelligent Automation with AI**
+- 📊 Experienced in **Forecasting, Predictive Modeling, Workforce Analytics & Business Intelligence**
+- 👁️ Exploring **AI-assisted Development, Cloud Solutions & Computer Vision Systems**
 - 📧 Reach me at - **vatsmanu728@gmail.com**
 
 <br clear="right" />
 
 ---
 
-## 🧠 Tech Stack
+##   Interested In
 
+<!-- AI Agents & Automation (4 logos) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,python,tensorflow,pytorch,git,mysql,matlab,vscode&theme=dark" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white">
+  <img src="https://img.shields.io/badge/Antigravity-AI-purple?style=for-the-badge">
+</p>
+
+<!-- Programming & ML (6 logos) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,cpp,python,tensorflow,pytorch,opencv&theme=dark" />
+</p>
+
+<!-- Development (8 logos) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,typescript,react,nodejs,aws,cloudflare,supabase&theme=dark" />
 </p>
 
 <table align="center">
 <tr>
+
 <td valign="top" width="33%">
-
-#### 🧮 AI / ML
-- Python, NumPy, Pandas  
-- TensorFlow, PyTorch  
-- Scikit-learn, Seaborn  
-
+#### Programming & ML
+- C/C++
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- OpenCV
+- TensorFlow
+- PyTorch
+- MediaPipe
+- Ultralytics
+- SQL
+- Matplot
+- Seaborn
+- Data Visualization
+- Forecasting & Predictive Modelling
+- Natural Language Processing
 </td>
+
 <td valign="top" width="33%">
-
-#### 🦜 LLM & Agents
-- LangChain, LangGraph  
-- OpenAI / GPT  
-- RAG, Chatbots  
-
+#### AI Agents & Automation
+- NLP
+- Chatbots
+- RAG
+- HuggingFace
+- Sentence Transformers
+- LangChain
+- LangGraph
+- LLM
+- OpenAI API
+- Gemini API
+- Claude
+- Replit, Cursor, Antigravity
 </td>
+
 <td valign="top" width="33%">
-
-
+#### Development
+- FRONT-END
+- HTML / CSS
+- Typescript
+- Node.js
+- React
+- BACK-END
+- Cloud Infra
+- Cloudflare
+- AWS - Cognito, SNS, RDS, S3, Lambda, Lex Chatbot
+- Supabase - Auth, Realtime, PostgreSQL, Cron, Deno Edge Functions
+- APP DEVELOPMENT
+- React Native
+- Expo Framework
+- SYSTEM DESIGN
+- App Architecture
+- Computer Vision
 </td>
+
 </tr>
 </table>
 
@@ -74,6 +126,16 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vatsmanu728&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%" alt="Contribution Graph" />
 </div>
+
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111827,100:1f2937&height=90&section=footer&animation=twinkling" />
+</p>
 
 ---
 
@@ -98,11 +160,3 @@
 </p>
 
 ---
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111827,100:1f2937&height=90&section=footer&animation=twinkling" />
-</p>
