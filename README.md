@@ -1,7 +1,7 @@
 <!-- MAYANK VATS – DARK THEME PROFILE -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+MAYANK+VATS;Applied+Machine+Learning+%7C+Data+Science+%7C+AI+Automation;Experienced+in+NLP+%7C+Forecasting+%7C+Predictive+Modelling+%7C+Computer+Vision;Enthusiastics+about+AI+agents+based+App+Development+%26+Web+Applications+%26+Chatbots;ChatGPT+%7C+Claude+Code+%7C+Gemini+%7C+Replit+%7C+Cursor+%7C+Antigravity" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+MAYANK+VATS;Applied+Machine+Learning+%7C+Data+Science+%7C+AI+Automation;Experienced+in+NLP+%7C+Forecasting+%7C+Predictive+Modelling;Enthusiastic+about+AI+agents+based+App+Development+%26+Web+Applications+%26+Chatbots;ChatGPT+%7C+Claude+Code+%7C+Gemini+%7C+Replit+%7C+Cursor+%7C+Antigravity" alt="Typing SVG" />
 </div>
 
 <div align="center">
