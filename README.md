@@ -152,10 +152,6 @@
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=90&section=footer&animation=twinkling" />
-</p>
-
 ---
 
 ## 🌐 Connect With Me
@@ -178,6 +174,10 @@
     <img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=E4405F" />
   </a> 
   -->
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=90&section=footer&animation=twinkling" />
 </p>
 
 ---
