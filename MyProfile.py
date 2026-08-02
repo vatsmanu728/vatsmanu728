@@ -3,16 +3,14 @@
 MyProfile.py
 
 Regenerates dark_mode.svg and light_mode.svg from scratch on every run.
-Don't hand-edit the SVG files -- edit the CONFIG block below instead and
-re-run (or just push; the GitHub Action re-runs this daily).
+Don't hand-edit the SVG files -- edit the CONFIG block below instead and re-run 
+(or just push; the GitHub Action re-runs this daily).
 
-Layout rule that answers "how do I stop gaps when I hide a field":
-every visible field/line gets a *sequential* y position computed at
-render time. There's no fixed slot reserved for hidden fields, so turning
-a field off (or leaving its value empty) simply closes the gap -- the
-next visible line moves up to take its place. A whole section (its
-header + surrounding blank line included) disappears the same way if
-none of its fields are visible.
+Every visible field/line gets a *sequential* y position computed at render time. 
+There's no fixed slot reserved for hidden fields, so turning a field off (or leaving its value empty) 
+simply closes the gap -- the next visible line moves up to take its place. 
+A whole section (its header + surrounding blank line included) disappears the same way 
+if none of its fields are visible.
 """
 
 import os
@@ -25,75 +23,80 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).parent
-DRY_RUN = os.environ.get("DRY_RUN") == "1"  # use fake stats, skip API calls
+DRY_RUN = os.environ.get("DRY_RUN") == "1"     # use fake stats, skip API calls
 
 # =============================================================================
-# CONFIG -- edit this block for routine updates. Nothing below the
-# "GENERATION LOGIC" divider should need to change for normal edits.
+# CONFIG -- edit this block for routine updates. 
+# Nothing below the "GENERATION LOGIC" divider should need to change for normal edits.
 # =============================================================================
 
-GITHUB_USERNAME = "vatsmanu728"      # used for API calls
-DISPLAY_NAME    = "vatsmanu728"      # shown in the "name ------" header
-BIRTHDATE       = "2002-03-31"       # YYYY-MM-DD -> powers "Uptime"
+GITHUB_USERNAME = "vatsmanu728"              # used for API calls
+DISPLAY_NAME    = "Vats Manu"                # shown in the "name ------" header
+BIRTHDATE       = "2002-03-31"               # YYYY-MM-DD -> powers "Uptime"
 
-# Each section is a dict with an optional "header" (None = no header line,
-# just fields) and a list of (label, value, show) tuples.
+# Each section is a dict with 
+# an optional "header" (None = no header line, just fields) 
+# and a list of (label, value, show) tuples.
 #
 #   - value=None on a GitHub-Stats field means "compute it automatically".
-#   - show=False hides the line without deleting it -- handy for fields
-#     you'll fill in later, or stats you don't want to show yet (e.g. a
-#     "0" you're not proud of showing off just yet).
-#   - A section with zero visible fields is skipped entirely, header,
-#     spacing and all.
-#   - Long values wrap automatically onto an indented continuation line,
-#     so don't worry about line length.
+#
+#   - show=False hides the line without deleting it -- handy for fields you'll fill in later, 
+#     or stats you don't want to show yet (e.g. a "0" you're not proud of showing off just yet).
+#   
+#   - A section with zero visible fields is skipped entirely, header, spacing and all.
+#   - Long values wrap automatically onto an indented continuation line
 
 SECTIONS = [
     {
         "header": None,
         "fields": [
-            ("OS", "Android 14, Windows 8/10/11, Mac OS, Ubuntu Linux", True),
-            ("Uptime", None, True),  # None = auto-computed from BIRTHDATE
-            ("Host", "DE Inc.", True),
-            ("Kernel", "Applied ML, Data Science, AI Automation", True),
-            ("IDE", "VSCode 1.96.0, JetBrains PyCharm, Android Studio, "
+                  ("Uptime", None, True),  # None = auto-computed from BIRTHDATE
+                  ("Host", "DEI Technologies Ltd.", True),
+                  ("Kernel", "Applied ML, AI Automation & LLMs, Data Science", True),
+        ],
+    },
+    {
+        "header": None,
+        "fields": [
+                  ("OS", "Android 14, Windows 8/10/11, Mac OS, Linux", True),
+                  ("IDE", "VSCode 1.96.0, JetBrains PyCharm, Android Studio, "
                      "Copilot, Cursor, Antigravity", True),
         ],
     },
     {
         "header": None,
         "fields": [
-            ("Languages.Programming", "", False),   # fill in later
-            ("Languages.Computer", "", False),      # fill in later
-            ("Languages.Real", "English, Hindi", True),
+                  ("Languages.Programming", "", False),   # fill in later
+                  ("Languages.Computer", "", False),      # fill in later
+                  ("Languages.Real", "English, Hindi", True),
         ],
     },
     {
         "header": None,
         "fields": [
-            ("Hobbies.Software", "", False),  # fill in later
-            ("Hobbies.Hardware", "", False),  # fill in later
+                  ("Hobbies.Software", "", False),  # fill in later
+                  ("Hobbies.Hardware", "", False),  # fill in later
         ],
     },
     {
         "header": "Contact",
         "fields": [
-            ("Email.Personal", "vatsmanu728@gmail.com", True),
-            ("Email.Personal", "vatsmanu@gmail.com", True),
-            ("Email.Work", "", False),  # fill in later
-            ("LinkedIn", "mayank-vats-5b2a0b2a6", True),
-            ("Whatsapp", "Vats.Mayank", True),
+                  ("Email.Personal", "vatsmanu728@gmail.com", False),
+                  ("Email.Personal", "", False),
+                  ("Email.Work", "vatsmanu728@gmail.com", True),  # fill in later
+                  ("LinkedIn", "Mayank-Vats", True),
+                  ("Whatsapp", "+91 70565 97805", True),
         ],
     },
     {
         "header": "GitHub Stats",
         "fields": [
             # value=None -> filled in by fetch_github_stats() below
-            ("Repos", None, True),
-            ("Stars", None, False),       # hidden for now -- 0
-            ("Commits", None, True),
-            ("Followers", None, False),   # hidden for now -- 0
-            ("Lines of Code", None, True),
+                  ("Repos", None, True),
+                  ("Commits", None, True),
+                  ("Stars", None, False),       # hidden for now -- 0
+                  ("Followers", None, False),   # hidden for now -- 0
+                  ("Lines of Code", None, True),
         ],
     },
 ]
@@ -419,7 +422,7 @@ def render_svg(theme):
     info_tspans, info_bottom = build_info_svg_block(
         INFO_X, INFO_START_Y, INFO_LINE_H, lines)
 
-    width = 1120
+    width = 1200
     height = max(art_bottom, info_bottom) + 24
 
     svg = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}"
