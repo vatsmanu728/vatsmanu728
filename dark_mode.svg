@@ -14,11 +14,11 @@
         fill="#0d1117" stroke="#30363d"/>
   <text class="header" x="470" y="34">&lt; VATS MANU &gt; --------------------------------------------</text>
   <text class="art">
-    <tspan x="22" y="34" xml:space="preserve">-==.         .-*#%#.                </tspan>
+    <tspan x="22" y="34" xml:space="preserve">               -==.         .-*#%#.                </tspan>
     <tspan x="22" y="49" xml:space="preserve">             =#=             ..::-+%#=              </tspan>
     <tspan x="22" y="64" xml:space="preserve">           :@@                ..::--=#@*            </tspan>
     <tspan x="22" y="79" xml:space="preserve">          =*.                   .::--+*@+           </tspan>
-    <tspan x="22" y="94" xml:space="preserve">         @=         ...          ...:-=*@#          </tspan>
+    <tspan x="22" y="94" xml:space="preserve">         @=                      ...:-=*@#          </tspan>
     <tspan x="22" y="109" xml:space="preserve">         @.     :=*#%%@@@@@%##*=:.   .::=%#         </tspan>
     <tspan x="22" y="124" xml:space="preserve">         #*   -=+#%@@@@@@@@@@@@@%%*-    .-%         </tspan>
     <tspan x="22" y="139" xml:space="preserve">         .-  :+**#%@@@@@@@@@@@@@@@%*-.   .:=        </tspan>
@@ -37,9 +37,9 @@
     <tspan x="22" y="334" xml:space="preserve">            #%-*##*#%@@@@@@@@@@%#=..%               </tspan>
     <tspan x="22" y="349" xml:space="preserve">              @#*#**#%%%%%@@@@%#- .*.               </tspan>
     <tspan x="22" y="364" xml:space="preserve">               @+***=--=*%@@@%+..=%@%:=             </tspan>
-    <tspan x="22" y="379" xml:space="preserve">           .#@##%:=++*%%@@@%+..=#%@@@  .            </tspan>
-    <tspan x="22" y="394" xml:space="preserve">     :%%-       %*-..::---:.-*%%@@@@@   :#:         </tspan>
-    <tspan x="22" y="409" xml:space="preserve">   :%-         @@%=+++++++#%%%@@@@@@.     :%:       </tspan>
+    <tspan x="22" y="379" xml:space="preserve">         ...#@##%:=++*%%@@@%+..=#%@@@  .            </tspan>
+    <tspan x="22" y="394" xml:space="preserve">      :%-       %*-..::---:.-*%%@@@@@   :#:         </tspan>
+    <tspan x="22" y="409" xml:space="preserve">    :-         @@%=+++++++#%%%@@@@@@.     :%:       </tspan>
     <tspan x="22" y="424" xml:space="preserve">  .=          =@@@#-+++*###%@@@@@@@          *:     </tspan>
     <tspan x="22" y="439" xml:space="preserve">  +           @@@@@:      +@@@@@@@            :-</tspan>
   </text>
@@ -59,7 +59,7 @@
     <tspan x="470" y="360" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">+91 70565 97805</tspan>
     <tspan x="470" y="400" class="section">- GitHub Stats --------------------------------------------</tspan>
     <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">5</tspan>
-    <tspan x="470" y="440" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">100</tspan>
-    <tspan x="470" y="460" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">106,633</tspan> ( <tspan class="add">125,010++</tspan>, <tspan class="del">18,377--</tspan> )
+    <tspan x="470" y="440" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">101</tspan>
+    <tspan x="470" y="460" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">106,633</tspan> ( <tspan class="add">125,015++</tspan>, <tspan class="del">18,382--</tspan> )
   </text>
 </svg>
