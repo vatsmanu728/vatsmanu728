@@ -12,7 +12,7 @@
   </style>
   <rect x="1" y="1" width="1198" height="476" rx="10"
         fill="#ffffff" stroke="#d0d7de"/>
-  <text class="header" x="470" y="34">Vats Manu ----------------------------------</text>
+  <text class="header" x="470" y="34">&lt; VATS MANU &gt; ----------------------------------</text>
   <text class="art">
     <tspan x="22" y="34" xml:space="preserve">@@hh@@@@@@@@@@@@@@@@0XXxX0wh@@@@@@@@@@@@@@@@@@@@@@@</tspan>
     <tspan x="22" y="49" xml:space="preserve">MMMM@@@@@@@@@@@@X&gt;^  ^^^^III&gt;-1X@@@@@@@@@@@@@@@@@@@</tspan>
@@ -57,7 +57,7 @@
     <tspan x="470" y="320" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">+91 70565 97805</tspan>
     <tspan x="470" y="360" class="section">- GitHub Stats ----------------------------</tspan>
     <tspan x="470" y="380" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">5</tspan>
-    <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">96</tspan>
-    <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">106,596</tspan> ( <tspan class="add">124,909++</tspan>, <tspan class="del">18,313--</tspan> )
+    <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">97</tspan>
+    <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">106,597</tspan> ( <tspan class="add">124,922++</tspan>, <tspan class="del">18,325--</tspan> )
   </text>
 </svg>
