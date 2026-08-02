@@ -31,7 +31,7 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"     # use fake stats, skip API calls
 # =============================================================================
 
 GITHUB_USERNAME = "vatsmanu728"              # used for API calls
-DISPLAY_NAME    = "Vats Manu"                # shown in the "name ------" header
+DISPLAY_NAME    = "< VATS MANU >"                # shown in the "name ------" header
 BIRTHDATE       = "2002-03-31"               # YYYY-MM-DD -> powers "Uptime"
 
 # Each section is a dict with 
@@ -50,7 +50,7 @@ SECTIONS = [
     {
         "header": None,
         "fields": [
-                  ("Uptime", None, True),  # None = auto-computed from BIRTHDATE
+                  ("Uptime", None, True),       # None = auto-computed from BIRTHDATE
                   ("Host", "DEI Technologies Ltd.", True),
                   ("Kernel", "Applied ML, AI Automation & LLMs, Data Science", True),
         ],
@@ -66,16 +66,16 @@ SECTIONS = [
     {
         "header": None,
         "fields": [
-                  ("Languages.Programming", "", False),   # fill in later
-                  ("Languages.Computer", "", False),      # fill in later
+                  ("Languages.Programming", "", False),      # fill in later
+                  ("Languages.Computer", "", False),         # fill in later
                   ("Languages.Real", "English, Hindi", True),
         ],
     },
     {
         "header": None,
         "fields": [
-                  ("Hobbies.Software", "", False),  # fill in later
-                  ("Hobbies.Hardware", "", False),  # fill in later
+                  ("Hobbies.Software", "", False),           # fill in later
+                  ("Hobbies.Hardware", "", False),           # fill in later
         ],
     },
     {
@@ -94,8 +94,8 @@ SECTIONS = [
             # value=None -> filled in by fetch_github_stats() below
                   ("Repos", None, True),
                   ("Commits", None, True),
-                  ("Stars", None, False),       # hidden for now -- 0
-                  ("Followers", None, False),   # hidden for now -- 0
+                  ("Stars", None, False),                # hidden for now -- 0
+                  ("Followers", None, False),            # hidden for now -- 0
                   ("Lines of Code", None, True),
         ],
     },
@@ -162,9 +162,10 @@ def save_cache(path, cache):
 
 
 def fetch_repo_loc(owner, repo_name, user_id, known_count, known_add, known_del):
-    """Walk commit history authored by user_id on the default branch.
-    Skips straight to 'no new commits' if the total count hasn't moved
-    since the last run -- this is what keeps daily runs fast."""
+    # Walk commit history authored by user_id on the default branch.
+    # Skips straight to 'no new commits' if the total count hasn't moved
+    # since the last run -- this is what keeps daily runs fast.
+    
     q = """
     query($owner:String!, $name:String!, $cursor:String) {
       repository(owner:$owner, name:$name) {
@@ -191,7 +192,7 @@ def fetch_repo_loc(owner, repo_name, user_id, known_count, known_add, known_del)
         if total_count is None:
             total_count = hist["totalCount"]
             if total_count == known_count:
-                return known_count, known_add, known_del  # nothing new
+                return known_count, known_add, known_del       # nothing new
         for node in hist["nodes"]:
             seen += 1
             author = node.get("author") or {}
