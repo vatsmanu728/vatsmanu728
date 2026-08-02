@@ -14,14 +14,14 @@
 </div>
 
 <br />
-
+<!--
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vatsmanu728&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
   <!-- <img src="https://img.shields.io/github/followers/vatsmanu728?label=Followers&style=social" alt="followers" />
   -->
   <img src="https://img.shields.io/badge/Location-India-111827?style=flat-square" />
 </p>
-
+-->
 ---
 
 <!-- <img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" />
