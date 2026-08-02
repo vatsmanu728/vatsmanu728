@@ -1,0 +1,66 @@
+<svg width="1120" height="493" viewBox="0 0 1120 493"
+     xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
+  <style>
+    .header { fill: #58a6ff; font-weight: bold; font-size: 15px; }
+    .section { fill: #f0883e; font-weight: bold; font-size: 13px; }
+    .key { fill: #79c0ff; font-size: 13px; }
+    .value { fill: #c9d1d9; font-size: 13px; }
+    .cc { fill: #484f58; font-size: 13px; }
+    .add { fill: #3fb950; font-size: 13px; }
+    .del { fill: #f85149; font-size: 13px; }
+    .art { fill: #c9d1d9; font-size: 12px; }
+  </style>
+  <rect x="1" y="1" width="1118" height="491" rx="10"
+        fill="#0d1117" stroke="#30363d"/>
+  <text class="header" x="470" y="34">vatsmanu728 ----------------------------------</text>
+  <text class="art">
+    <tspan x="22" y="34" xml:space="preserve">**ooo*++=~-:.  :*&amp;@@@@@@@@@@@@@@@%O*:            .,:~+= </tspan>
+    <tspan x="22" y="49" xml:space="preserve">++=~:,.     .o@@@@@@@@@@@@@@@@@@@@@@@8b=                </tspan>
+    <tspan x="22" y="64" xml:space="preserve">,,..      :&amp;@@@@@@@@@@@@@@@@@@@@@@@@@%#8Ob+             </tspan>
+    <tspan x="22" y="79" xml:space="preserve">         -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#8&amp;b-           </tspan>
+    <tspan x="22" y="94" xml:space="preserve">      ,&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#&amp;Ob=          </tspan>
+    <tspan x="22" y="109" xml:space="preserve">     .&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#&amp;Ob+         </tspan>
+    <tspan x="22" y="124" xml:space="preserve">    ~@@@@@@@@@@@@@@%8&amp;8%@@@@@@@@@@@@@@@@@@@%#&amp;d*        </tspan>
+    <tspan x="22" y="139" xml:space="preserve">    -@@@@@@@@@#&amp;do*+====~~~~=**oabO#@@@@@@@@@@%#O:      </tspan>
+    <tspan x="22" y="154" xml:space="preserve">     #@@@@@@8Obo*+==~~---::,,,::-~=+*ad8@@@@@@@@%O,     </tspan>
+    <tspan x="22" y="169" xml:space="preserve">     #@@@@%Odba*+=~-----::,..  .,--~~=+o&amp;@@@@@@@@@d     </tspan>
+    <tspan x="22" y="184" xml:space="preserve">     @@@@@&amp;bbbo*+=~----:::,.. ...,:--~=*b8@@@@@@@@#.    </tspan>
+    <tspan x="22" y="199" xml:space="preserve">     O@@@#ddbba*+=~~~--:::,,....,::---=*b&amp;@@@@@@@@&amp;  .  </tspan>
+    <tspan x="22" y="214" xml:space="preserve">..   o@@@dbdbbo*+=~----:::,.. ..,,::-~=+a8@@@@@@@@+ ....</tspan>
+    <tspan x="22" y="229" xml:space="preserve">.,.  ~@@ao8%@@%8&amp;Ob*=-:,,...:-~~~=**+~~~*&amp;@@@@@@@%.  . .</tspan>
+    <tspan x="22" y="244" xml:space="preserve">8o    @@b%@&amp;&amp;&amp;8@@@@%O*=~-~a&amp;@@@%%8&amp;Odda+=*@@@@@@@b ..,..</tspan>
+    <tspan x="22" y="259" xml:space="preserve">@@   :%@d&amp;bo~-~~b&amp;88&amp;a+=~=oab&amp;8d*~---+aa+=O@@@@@@+,,,:..</tspan>
+    <tspan x="22" y="274" xml:space="preserve">8@a-o#8oO&amp;&amp;#a*oa*+bObb*~- :=+bbdo~=ao+*o, ~%@@@%o--,::,,</tspan>
+    <tspan x="22" y="289" xml:space="preserve">~#@@&amp;8&amp;:ad&amp;8dd8d*obd&amp;8+:--+bo*+a&amp;a**a+*O+ +%&amp;d*~oo-,::,:</tspan>
+    <tspan x="22" y="304" xml:space="preserve">:#@%~d8-+baooo***oabOo~:.,:==+++++====~=++o%&amp;+:-oO:.::,:</tspan>
+    <tspan x="22" y="319" xml:space="preserve">d@@&amp;.b#+***+====+*oaao+-,.,:~:::::::::-~~~=#&amp;a+-*=,.:,,:</tspan>
+    <tspan x="22" y="334" xml:space="preserve">#&amp;%@OO#**+~----=*aoobo=:. .:~-:,....,,,::-+#*~+~-...,,,-</tspan>
+    <tspan x="22" y="349" xml:space="preserve">@@@@@b8*+=~::-=*ab**+~,    .:-=~:.   ..,:-*%+-=-....,..,</tspan>
+    <tspan x="22" y="364" xml:space="preserve">##%#%=ab*+=-~+*oadOOOb*=++**+~-~=-,  ..,:~b@*~-.....:..,</tspan>
+    <tspan x="22" y="379" xml:space="preserve">      :&amp;o***&amp;%@@@@@@@@#8%#%&amp;o*++*+~-:::-=+8#~:.....,,..o</tspan>
+    <tspan x="22" y="394" xml:space="preserve">.,.    %8ao8@@@@%%#8daoad&amp;#&amp;O&amp;&amp;@%&amp;o=~~=+*b@+ .,::--~=~o@</tspan>
+    <tspan x="22" y="409" xml:space="preserve">.....  *@#bd&amp;oo&amp;d=,:.     .,~ad8@@O+==+aO@#   ..,,:~=o@#</tspan>
+    <tspan x="22" y="424" xml:space="preserve">        *@#a*ooaa=:-        .=+~+8b==*b#@@-         .~*~</tspan>
+    <tspan x="22" y="439" xml:space="preserve">  .      o@#aoooaa*+-,,,,~~~=-::-===*O@@@b             .</tspan>
+    <tspan x="22" y="454" xml:space="preserve">          *#&amp;oooooo+~--~--~~~----~+a&amp;@@@&amp;              .</tspan>
+  </text>
+  <text>
+    <tspan x="470" y="60" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Android 14, Windows 8/10/11, Mac OS, Ubuntu</tspan>
+    <tspan x="470" y="80" class="value">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Linux</tspan>
+    <tspan x="470" y="100" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">24 years, 4 months, 2 days</tspan>
+    <tspan x="470" y="120" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">DE Inc.</tspan>
+    <tspan x="470" y="140" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Applied ML, Data Science, AI Automation</tspan>
+    <tspan x="470" y="160" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">VSCode 1.96.0, JetBrains PyCharm, Android</tspan>
+    <tspan x="470" y="180" class="value">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Studio, Copilot, Cursor, Antigravity</tspan>
+    <tspan x="470" y="220" class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">English, Hindi</tspan>
+    <tspan x="470" y="260" class="section">- Contact ----------------------------</tspan>
+    <tspan x="470" y="280" class="cc">. </tspan><tspan class="key">Email.Personal</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">vatsmanu728@gmail.com</tspan>
+    <tspan x="470" y="300" class="cc">. </tspan><tspan class="key">Email.Personal</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">vatsmanu@gmail.com</tspan>
+    <tspan x="470" y="320" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">mayank-vats-5b2a0b2a6</tspan>
+    <tspan x="470" y="340" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Vats.Mayank</tspan>
+    <tspan x="470" y="380" class="section">- GitHub Stats ----------------------------</tspan>
+    <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">5</tspan>
+    <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">87</tspan>
+    <tspan x="470" y="440" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">106,590</tspan> ( <tspan class="add">124,811++</tspan>, <tspan class="del">18,221--</tspan> )
+  </text>
+</svg>
