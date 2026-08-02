@@ -1,18 +1,18 @@
-<svg width="1200" height="478" viewBox="0 0 1200 478"
+<svg width="1120" height="504" viewBox="0 0 1120 504"
      xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
   <style>
-    .header { fill: #0969da; font-weight: bold; font-size: 15px; }
-    .section { fill: #9a6700; font-weight: bold; font-size: 13px; }
-    .key { fill: #0969da; font-size: 13px; }
-    .value { fill: #24292f; font-size: 13px; }
+    .header { fill: #1f2328; font-weight: bold; font-size: 15px; }
+    .section { fill: #986801; font-weight: bold; font-size: 13px; }
+    .key { fill: #986801; font-size: 13px; }
+    .value { fill: #0969da; font-size: 13px; }
     .cc { fill: #8c959f; font-size: 13px; }
     .add { fill: #1a7f37; font-size: 13px; }
     .del { fill: #cf222e; font-size: 13px; }
     .art { fill: #24292f; font-size: 12px; }
   </style>
-  <rect x="1" y="1" width="1198" height="476" rx="10"
+  <rect x="1" y="1" width="1118" height="502" rx="10"
         fill="#ffffff" stroke="#d0d7de"/>
-  <text class="header" x="470" y="34">&lt; VATS MANU &gt; ----------------------------------</text>
+  <text class="header" x="470" y="34">&lt; VATS MANU &gt; --------------------------------------------</text>
   <text class="art">
     <tspan x="22" y="34" xml:space="preserve">@@hh@@@@@@@@@@@@@@@@0XXxX0wh@@@@@@@@@@@@@@@@@@@@@@@</tspan>
     <tspan x="22" y="49" xml:space="preserve">MMMM@@@@@@@@@@@@X&gt;^  ^^^^III&gt;-1X@@@@@@@@@@@@@@@@@@@</tspan>
@@ -44,20 +44,22 @@
     <tspan x="22" y="439" xml:space="preserve">@@@0^II^^^^^IIw@@@XxXX0hh@@@@@@@@------&gt;-1w@@@@@@@@</tspan>
   </text>
   <text>
-    <tspan x="470" y="60" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">24 years, 4 months, 2 days</tspan>
-    <tspan x="470" y="80" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">DEI Technologies Ltd.</tspan>
-    <tspan x="470" y="100" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Applied ML, AI Automation &amp; LLMs, Data Science</tspan>
-    <tspan x="470" y="140" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Android 14, Windows 8/10/11, Mac OS, Linux</tspan>
-    <tspan x="470" y="160" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">VSCode 1.96.0, JetBrains PyCharm, Android</tspan>
-    <tspan x="470" y="180" class="value">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Studio, Copilot, Cursor, Antigravity</tspan>
-    <tspan x="470" y="220" class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">English, Hindi</tspan>
-    <tspan x="470" y="260" class="section">- Contact ----------------------------</tspan>
-    <tspan x="470" y="280" class="cc">. </tspan><tspan class="key">Email.Work</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">vatsmanu728@gmail.com</tspan>
-    <tspan x="470" y="300" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Mayank-Vats</tspan>
-    <tspan x="470" y="320" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">+91 70565 97805</tspan>
-    <tspan x="470" y="360" class="section">- GitHub Stats ----------------------------</tspan>
-    <tspan x="470" y="380" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">5</tspan>
-    <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">97</tspan>
-    <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">106,597</tspan> ( <tspan class="add">124,922++</tspan>, <tspan class="del">18,325--</tspan> )
+    <tspan x="470" y="60" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">24 years, 4 months, 2 days</tspan>
+    <tspan x="470" y="80" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">DEI Technologies Ltd.</tspan>
+    <tspan x="470" y="100" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Applied ML, AI Automation &amp; LLMs, Data Science</tspan>
+    <tspan x="470" y="140" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Android 14, Windows 8/10/11, Mac OS, Linux</tspan>
+    <tspan x="470" y="160" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">VSCode 1.96.0, JetBrains PyCharm, Android</tspan>
+    <tspan x="470" y="180" class="value">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Studio, Copilot, Cursor, Antigravity</tspan>
+    <tspan x="470" y="220" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Python, C++, Bash, TypeScript, JavaScript,</tspan>
+    <tspan x="470" y="240" class="value">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PostgreSQL, PL/pgSQL</tspan>
+    <tspan x="470" y="260" class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Hindi</tspan>
+    <tspan x="470" y="300" class="section">- Contact -------------------------------------------------</tspan>
+    <tspan x="470" y="320" class="cc">. </tspan><tspan class="key">Email.Work</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">vatsmanu728@gmail.com</tspan>
+    <tspan x="470" y="340" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">Mayank-Vats</tspan>
+    <tspan x="470" y="360" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">+91 70565 97805</tspan>
+    <tspan x="470" y="400" class="section">- GitHub Stats --------------------------------------------</tspan>
+    <tspan x="470" y="420" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">5</tspan>
+    <tspan x="470" y="440" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">98</tspan>
+    <tspan x="470" y="460" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">106,632</tspan> ( <tspan class="add">124,981++</tspan>, <tspan class="del">18,349--</tspan> )
   </text>
 </svg>
