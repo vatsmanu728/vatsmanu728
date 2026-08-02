@@ -32,9 +32,9 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"  # use fake stats, skip API calls
 # "GENERATION LOGIC" divider should need to change for normal edits.
 # =============================================================================
 
-GITHUB_USERNAME = "your-username"      # used for API calls
-DISPLAY_NAME    = "your-username"      # shown in the "name ------" header
-BIRTHDATE       = "2001-01-01"         # YYYY-MM-DD -> powers "Uptime"
+GITHUB_USERNAME = "vatsmanu728"      # used for API calls
+DISPLAY_NAME    = "vatsmanu728"      # shown in the "name ------" header
+BIRTHDATE       = "2002-03-31"       # YYYY-MM-DD -> powers "Uptime"
 
 # Each section is a dict with an optional "header" (None = no header line,
 # just fields) and a list of (label, value, show) tuples.
