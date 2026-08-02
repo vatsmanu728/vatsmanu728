@@ -66,8 +66,8 @@ SECTIONS = [
     {
         "header": None,
         "fields": [
-                  ("Languages.Programming", "", False),      # fill in later
-                  ("Languages.Computer", "", False),         # fill in later
+                  ("Languages.Programming", "Python, C++, Bash, TypeScript, JavaScript, PostgreSQL, PL/pgSQL", True),      # fill in later
+                  ("Languages.Computer", "JSON, CSV, HTML5, CSS3, XML, YAML, TOML, Markdown", False),            # fill in later
                   ("Languages.Real", "English, Hindi", True),
         ],
     },
@@ -314,6 +314,8 @@ def resolve_value(label, value, stats):
     return ""
 
 
+STATS_PAIRS = [("Repos", "Stars"), ("Commits", "Followers")]
+
 def build_lines(stats):
     """Returns an ordered list of line dicts, already filtered/wrapped/
     spaced -- ready to hand straight to the SVG renderer with sequential
@@ -332,6 +334,26 @@ def build_lines(stats):
         first_section = False
         if section["header"]:
             lines.append({"type": "header", "text": section["header"]})
+        if section["header"] == "GitHub Stats":
+            vmap = dict(visible)
+            used = set()
+            for left, right in STATS_PAIRS:
+                lv, rv = vmap.get(left), vmap.get(right)
+                if lv is not None and rv is not None:
+                    lines.append({"type": "pair", "left": (left, lv),
+                                  "right": (right, rv)})
+                    used.update((left, right))
+                elif lv is not None:
+                    lines.append({"type": "field", "label": left, "value": lv})
+                    used.add(left)
+                elif rv is not None:
+                    lines.append({"type": "field", "label": right, "value": rv})
+                    used.add(right)
+            for label, value in visible:
+                if label not in used:
+                    lines.append({"type": "field", "label": label, "value": value})
+            continue
+
         for label, value in visible:
             if isinstance(value, dict):
                 lines.append({"type": "field", "label": label, "value": value})
@@ -343,11 +365,18 @@ def build_lines(stats):
     return lines
 
 
-def dots_for(label):
-    # Full prefix on a field line is: ". " + label + ": " + dots + " "
-    # (5 fixed chars). Value must land at column LABEL_COL, so:
-    n = max(3, LABEL_COL - len(label) - 5)
-    return "." * n
+ROW_WIDTH = 58        # target width (chars) that values right-align to
+PAIR_HALF_WIDTH = 27  # each half of a GitHub-Stats partitioned row
+
+
+def field_row_tspans(label, value, width, x=None, y=None):
+    n = max(3, width - len(label) - len(str(value)) - 5)
+    dots = "." * n
+    first = f' x="{x}" y="{y}"' if x is not None else ""
+    return (f'<tspan{first} class="cc">. </tspan>'
+            f'<tspan class="key">{esc(label)}</tspan>:'
+            f'<tspan class="cc"> {dots} </tspan>'
+            f'<tspan class="value">{esc(value)}</tspan>')
 
 
 def esc(s):
@@ -359,22 +388,27 @@ def render_field_tspans(x, y, line):
     if line["type"] == "blank":
         return ""
     if line["type"] == "header":
+        dashes = max(3, ROW_WIDTH - len(line["text"]) - 2)
         return (f'<tspan x="{x}" y="{y}" class="section">- {esc(line["text"])} '
-                 f'{"-" * 28}</tspan>')
+                 f'{"-" * dashes}</tspan>')
     if line["type"] == "continuation":
+        pad = max(0, ROW_WIDTH - len(line["value"]))
         return (f'<tspan x="{x}" y="{y}" class="value">'
-                f'{"&#160;" * LABEL_COL}{esc(line["value"])}</tspan>')
+                f'{"&#160;" * pad}{esc(line["value"])}</tspan>')
+    if line["type"] == "pair":
+        (llabel, lval), (rlabel, rval) = line["left"], line["right"]
+        left = field_row_tspans(llabel, lval, PAIR_HALF_WIDTH, x, y)
+        right = field_row_tspans(rlabel, rval, PAIR_HALF_WIDTH)
+        return left + '<tspan class="cc">  |  </tspan>' + right
     label, value = line["label"], line["value"]
-    dots = dots_for(label)
-    head = (f'<tspan x="{x}" y="{y}" class="cc">. </tspan>'
-            f'<tspan class="key">{esc(label)}</tspan>:'
-            f'<tspan class="cc"> {dots} </tspan>')
     if isinstance(value, dict):
+        main = value["main"]
+        head = field_row_tspans(label, main, ROW_WIDTH, x, y)
         extra = " ( " + ", ".join(
             f'<tspan class="{cls}">{esc(v)}</tspan>' for v, cls in value["extra"]
         ) + " )"
-        return head + f'<tspan class="value">{esc(value["main"])}</tspan>' + extra
-    return head + f'<tspan class="value">{esc(value)}</tspan>'
+        return head + extra
+    return field_row_tspans(label, value, ROW_WIDTH, x, y)
 
 
 def build_info_svg_block(x, start_y, line_height, lines):
@@ -400,13 +434,13 @@ def build_art_svg_block(x, start_y, line_height):
 
 
 PALETTES = {
-    "dark": dict(bg="#0d1117", border="#30363d", header="#58a6ff",
-                 key="#79c0ff", value="#c9d1d9", dots="#484f58",
-                 section="#f0883e", add="#3fb950", delc="#f85149",
-                 art="#c9d1d9"),
-    "light": dict(bg="#ffffff", border="#d0d7de", header="#0969da",
-                  key="#0969da", value="#24292f", dots="#8c959f",
-                  section="#9a6700", add="#1a7f37", delc="#cf222e",
+    "dark": dict(bg="#0d1117", border="#30363d", header="#f8f8f2",
+                 key="#e5c07b", value="#61afef", dots="#5c6370",
+                 section="#e5c07b", add="#98c379", delc="#e06c75",
+                 art="#abb2bf"),
+    "light": dict(bg="#ffffff", border="#d0d7de", header="#1f2328",
+                  key="#986801", value="#0969da", dots="#8c959f",
+                  section="#986801", add="#1a7f37", delc="#cf222e",
                   art="#24292f"),
 }
 
@@ -423,8 +457,9 @@ def render_svg(theme):
     info_tspans, info_bottom = build_info_svg_block(
         INFO_X, INFO_START_Y, INFO_LINE_H, lines)
 
-    width = 1200
+    width = 1120
     height = max(art_bottom, info_bottom) + 24
+    header_dashes = max(3, ROW_WIDTH - len(DISPLAY_NAME) - 1)
 
     svg = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}"
      xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
@@ -440,7 +475,7 @@ def render_svg(theme):
   </style>
   <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="10"
         fill="{p['bg']}" stroke="{p['border']}"/>
-  <text class="header" x="{INFO_X}" y="34">{esc(DISPLAY_NAME)} {"-" * 34}</text>
+  <text class="header" x="{INFO_X}" y="34">{esc(DISPLAY_NAME)} {"-" * header_dashes}</text>
   <text class="art">
     {art_tspans}
   </text>
