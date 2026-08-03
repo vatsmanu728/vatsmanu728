@@ -47,8 +47,10 @@ def render_preview(lines, out_path, dark=True, font_size=14):
     line_h = font_size + 2
     W = char_w * max(len(l) for l in lines) + 20
     H = line_h * len(lines) + 20
-    bg = (13, 17, 23) if dark else (255, 255, 255)
-    fg = (230, 237, 243) if dark else (20, 20, 20)
+    bg = (13, 17, 23) if dark else (13, 17, 23)
+    fg = (230, 237, 243) if dark else (230, 237, 243)
+    # bg = (13, 17, 23) if dark else (255, 255, 255)
+    # fg = (230, 237, 243) if dark else (20, 20, 20)
     img = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(img)
     for i, line in enumerate(lines):
