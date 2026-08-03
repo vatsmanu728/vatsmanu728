@@ -66,8 +66,8 @@ SECTIONS = [
     {
         "header": None,
         "fields": [
-                  ("Languages.Programming", "Python, C++, Bash, TypeScript, JavaScript, PostgreSQL, PL/pgSQL", True),      # fill in later
-                  ("Languages.Computer", "JSON, CSV, HTML5, CSS3, XML, YAML, TOML, Markdown", False),            # fill in later
+                  ("Languages.Programming", "Python, C++, Bash, TypeScript, JavaScript, PostgreSQL, PL/pgSQL", True),  # fill more later
+                  ("Languages.Computer", "JSON, CSV, HTML5, CSS3, XML, YAML, TOML, Markdown", True),            # fill more later
                   ("Languages.Real", "English, Hindi", True),
         ],
     },
@@ -365,13 +365,19 @@ def build_lines(stats):
     return lines
 
 
-ROW_WIDTH = 58        # target width (chars) that values right-align to
-PAIR_HALF_WIDTH = 27  # each half of a GitHub-Stats partitioned row
+LABEL_COL = 30       # column where values start, for normal fields
+PAIR_HALF_WIDTH = 22  # column where each half's value starts, in a stats partition row
+HEADER_WIDTH = 62     # just controls how long the '- username ----' line is
+STATS_PAIRS = [("Repos", "Stars"), ("Commits", "Followers")]  # <- add this, it's what was missing
 
 
-def field_row_tspans(label, value, width, x=None, y=None):
-    n = max(3, width - len(label) - len(str(value)) - 5)
-    dots = "." * n
+def dots_for(label, col_width=LABEL_COL):
+    n = max(3, col_width - len(label) - 5)
+    return "." * n
+
+
+def field_row_tspans(label, value, col_width=LABEL_COL, x=None, y=None):
+    dots = dots_for(label, col_width)
     first = f' x="{x}" y="{y}"' if x is not None else ""
     return (f'<tspan{first} class="cc">. </tspan>'
             f'<tspan class="key">{esc(label)}</tspan>:'
@@ -388,13 +394,11 @@ def render_field_tspans(x, y, line):
     if line["type"] == "blank":
         return ""
     if line["type"] == "header":
-        dashes = max(3, ROW_WIDTH - len(line["text"]) - 2)
         return (f'<tspan x="{x}" y="{y}" class="section">- {esc(line["text"])} '
-                 f'{"-" * dashes}</tspan>')
+                 f'{"-" * 28}</tspan>')
     if line["type"] == "continuation":
-        pad = max(0, ROW_WIDTH - len(line["value"]))
         return (f'<tspan x="{x}" y="{y}" class="value">'
-                f'{"&#160;" * pad}{esc(line["value"])}</tspan>')
+                f'{"&#160;" * LABEL_COL}{esc(line["value"])}</tspan>')
     if line["type"] == "pair":
         (llabel, lval), (rlabel, rval) = line["left"], line["right"]
         left = field_row_tspans(llabel, lval, PAIR_HALF_WIDTH, x, y)
@@ -403,12 +407,12 @@ def render_field_tspans(x, y, line):
     label, value = line["label"], line["value"]
     if isinstance(value, dict):
         main = value["main"]
-        head = field_row_tspans(label, main, ROW_WIDTH, x, y)
+        head = field_row_tspans(label, main, LABEL_COL, x, y)
         extra = " ( " + ", ".join(
             f'<tspan class="{cls}">{esc(v)}</tspan>' for v, cls in value["extra"]
         ) + " )"
         return head + extra
-    return field_row_tspans(label, value, ROW_WIDTH, x, y)
+    return field_row_tspans(label, value, LABEL_COL, x, y)
 
 
 def build_info_svg_block(x, start_y, line_height, lines):
