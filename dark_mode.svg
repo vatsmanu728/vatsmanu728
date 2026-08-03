@@ -12,7 +12,7 @@
   </style>
   <rect x="1" y="1" width="1118" height="542" rx="10"
         fill="#0d1117" stroke="#30363d"/>
-  <text class="header" x="470" y="34">&lt; VATS MANU &gt; ------------------------------------------------------------------</text>
+  <text class="header" x="470" y="34">&lt; VATS MANU &gt; ------------------------------------------------</text>
   <text class="art">
     <tspan x="22" y="34" xml:space="preserve">               -==.         .-*#%#.                </tspan>
     <tspan x="22" y="49" xml:space="preserve">             =#=             ..::-+%#=              </tspan>
@@ -61,7 +61,7 @@
     <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> .................................................... </tspan><tspan class="value">+91 70565 97805</tspan>
     <tspan x="470" y="440" class="section">- GitHub Stats ------------------------------------------------------------------</tspan>
     <tspan x="470" y="460" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..................................................................... </tspan><tspan class="value">5</tspan>
-    <tspan x="470" y="480" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................................................................. </tspan><tspan class="value">104</tspan>
-    <tspan x="470" y="500" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ....................................................... </tspan><tspan class="value">106,667</tspan> ( <tspan class="add">125,075++</tspan>, <tspan class="del">18,408--</tspan> )
+    <tspan x="470" y="480" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................................................................. </tspan><tspan class="value">105</tspan>
+    <tspan x="470" y="500" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ....................................................... </tspan><tspan class="value">106,667</tspan> ( <tspan class="add">125,076++</tspan>, <tspan class="del">18,409--</tspan> )
   </text>
 </svg>
