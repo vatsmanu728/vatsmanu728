@@ -1,17 +1,17 @@
 <svg width="1120" height="544" viewBox="0 0 1120 544"
      xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
   <style>
-    .header { fill: #1f2328; font-weight: bold; font-size: 15px; }
-    .section { fill: #986801; font-weight: bold; font-size: 13px; }
-    .key { fill: #986801; font-size: 13px; }
-    .value { fill: #0969da; font-size: 13px; }
-    .cc { fill: #8c959f; font-size: 13px; }
-    .add { fill: #1a7f37; font-size: 13px; }
-    .del { fill: #cf222e; font-size: 13px; }
-    .art { fill: #24292f; font-size: 12px; }
+    .header { fill: #f8f8f8; font-weight: bold; font-size: 15px; }
+    .section { fill: #e5c07b; font-weight: bold; font-size: 13px; }
+    .key { fill: #e5c07b; font-size: 13px; }
+    .value { fill: #61afef; font-size: 13px; }
+    .cc { fill: #5c6370; font-size: 13px; }
+    .add { fill: #98c379; font-size: 13px; }
+    .del { fill: #e06c75; font-size: 13px; }
+    .art { fill: #abb2bf; font-size: 12px; }
   </style>
   <rect x="1" y="1" width="1118" height="542" rx="10"
-        fill="#ffffff" stroke="#d0d7de"/>
+        fill="#0d1117" stroke="#30363d"/>
   <text class="header" x="470" y="34">&lt; VATS MANU &gt; ------------------------------------------------</text>
   <text class="art">
     <tspan x="22" y="34" xml:space="preserve">               -==.         .-*#%#.                </tspan>
@@ -61,7 +61,7 @@
     <tspan x="470" y="400" class="cc">. </tspan><tspan class="key">Whatsapp</tspan>:<tspan class="cc"> .................................................... </tspan><tspan class="value">+91 70565 97805</tspan>
     <tspan x="470" y="440" class="section">- GitHub Stats ------------------------------------------------------------------</tspan>
     <tspan x="470" y="460" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..................................................................... </tspan><tspan class="value">5</tspan>
-    <tspan x="470" y="480" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................................................................. </tspan><tspan class="value">105</tspan>
-    <tspan x="470" y="500" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ....................................................... </tspan><tspan class="value">106,667</tspan> ( <tspan class="add">125,076++</tspan>, <tspan class="del">18,409--</tspan> )
+    <tspan x="470" y="480" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................................................................. </tspan><tspan class="value">107</tspan>
+    <tspan x="470" y="500" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ....................................................... </tspan><tspan class="value">106,679</tspan> ( <tspan class="add">125,094++</tspan>, <tspan class="del">18,415--</tspan> )
   </text>
 </svg>
