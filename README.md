@@ -32,11 +32,11 @@
 <img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
 
 - 💼 Former **Machine Learning Intern @ National e-Governance Division (MeitY, Government of India)**
-- 🔭 Focused on **Applied Machine Learning, Data Science & AI Automation**
-- 🤖 Building **ML Solutions, NLP Applications & Intelligent Automation with AI**
-- 📊 Experienced in **Forecasting, Predictive Modeling, Workforce Analytics & Business Intelligence**
+- 🔭 Focused on **Artificial Intelligence, LLMs, Machine Learning & Data Science**
+- 📊 Experienced in **Forecasting, Predictive Modeling and Business Analytics**
 - 👁️ Exploring **AI-assisted Development, Cloud Solutions & Computer Vision Systems**
-- 📧 Reach me at - **vatsmanu728@gmail.com**
+- 🤖 Building **AI-ML Solutions, LLM Applications & Automation with AI driven workflows**
+- 📧 Open to connecting with Recruiters, fellow AI/ML practitioners, and anyone building data driven solutions to real business problems. Reach me at - **vatsmanu728@gmail.com**
 
 <br clear="right" />
 
@@ -96,14 +96,17 @@
 <h4>AI Agents & Automation</h4>
 
 <ul>
+<li>Fine-tuning</li>
+<li>QLoRA</li>
+<li>LLM</li>
 <li>NLP</li>
 <li>Chatbots</li>
 <li>RAG</li>
 <li>HuggingFace</li>
+<li>Computer Vision</li>
 <li>Sentence Transformers</li>
 <li>LangChain</li>
 <li>LangGraph</li>
-<li>LLM</li>
 <li>OpenAI API</li>
 <li>Gemini API</li>
 <li>Claude</li>
@@ -118,25 +121,26 @@
 <h4>Development</h4>
 
 <ul>
-<li>FRONT-END</li>
+<li>FRONT-END - </li>
 <li>HTML / CSS</li>
 <li>TypeScript</li>
 <li>Node.js</li>
 <li>React</li>
 
-<li>BACK-END</li>
+<li>BACK-END - </li>
 <li>Cloud Infra</li>
 <li>Cloudflare</li>
 <li>AWS (Cognito, SNS, RDS, S3, Lambda, Lex Chatbot)</li>
 <li>Supabase (Auth, Realtime, PostgreSQL, Cron, Deno Edge Functions)</li>
 
-<li>APP DEVELOPMENT</li>
+<li>APP DEVELOPMENT - </li>
 <li>React Native</li>
 <li>Expo Framework</li>
 
-<li>SYSTEM DESIGN</li>
+<li>System Design</li>
 <li>App Architecture</li>
-<li>Computer Vision</li>
+
+
 </ul>
 
 </td>
