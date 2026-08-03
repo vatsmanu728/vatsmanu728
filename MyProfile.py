@@ -472,10 +472,14 @@ PALETTES = {
                  key="#e5c07b", value="#61afef", dots="#5c6370",
                  section="#e5c07b", add="#98c379", delc="#e06c75",
                  art="#abb2bf"),
-    "light": dict(bg="#ffffff", border="#d0d7de", header="#1f2328",
-                  key="#986801", value="#0969da", dots="#8c959f",
-                  section="#986801", add="#1a7f37", delc="#cf222e",
-                  art="#24292f"),
+    #"light": dict(bg="#ffffff", border="#d0d7de", header="#1f2328",
+    #              key="#986801", value="#0969da", dots="#8c959f",
+    #              section="#986801", add="#1a7f37", delc="#cf222e",
+    #              art="#24292f"),
+    "light": dict(bg="#0d1117", border="#30363d", header="#f8f8f8",
+              key="#e5c07b", value="#61afef", dots="#5c6370",
+              section="#e5c07b", add="#98c379", delc="#e06c75",
+              art="#abb2bf"),
 }
 
 ART_X, ART_START_Y, ART_LINE_H = 22, 34, 15
