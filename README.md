@@ -170,6 +170,12 @@
   <a href="https://www.linkedin.com/in/mayank-vats-5b2a0b2a6">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <img
+  src="https://alxaukhepajcrqhputst.supabase.co/functions/v1/track-visit"
+  width="1"
+  height="1"
+  alt=""
+  />
   <a href="mailto:vatsmanu728@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
   </a>
