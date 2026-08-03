@@ -463,7 +463,7 @@ def render_svg(theme):
 
     width = 1120
     height = max(art_bottom, info_bottom) + 24
-    header_dashes = max(3, ROW_WIDTH - len(DISPLAY_NAME) - 1)
+    header_dashes = max(3, HEADER_WIDTH - len(DISPLAY_NAME) - 1)
 
     svg = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}"
      xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
