@@ -369,7 +369,7 @@ ROW_WIDTH = 80        # target width (chars) that values right-align to
 PAIR_HALF_WIDTH = 40  # each half of a GitHub-Stats partitioned row
 
 LABEL_COL = 30       # column where values start, for normal fields
-HEADER_WIDTH = 80     # just controls how long the '- username ----' line is
+HEADER_WIDTH = 62     # just controls how long the '- username ----' line is
 
 def dots_for(label, col_width=LABEL_COL):
     n = max(3, col_width - len(label) - 5)
